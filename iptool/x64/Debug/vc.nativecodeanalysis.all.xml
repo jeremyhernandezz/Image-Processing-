@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.h</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'imageData::numRows' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>imageData::{ctor}</FUNCTION>
+    <DECORATED>??0imageData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>imageData::numRows</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHH@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHH@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHHH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHHH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHHH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHHH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHHH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::setPixel</FUNCTION>
+    <DECORATED>?setPixel@image@@QEAAXHHHH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHH@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHH@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>129</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'value'.</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+        <FILENAME>image.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'value' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+        <FILENAME>image.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'rgb' ) resolves to the default case</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+        <FILENAME>image.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+        <FILENAME>image.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'value' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>127</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>127</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::getPixel</FUNCTION>
+    <DECORATED>?getPixel@image@@QEAAHHHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>219</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>219</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>219</LINE>
+      <COLUMN>127</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>219</LINE>
+      <COLUMN>109</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>228</LINE>
+      <COLUMN>67</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>228</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>228</LINE>
+      <COLUMN>122</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>228</LINE>
+      <COLUMN>105</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>126</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>109</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>68</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>125</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>108</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::save</FUNCTION>
+    <DECORATED>?save@image@@QEAA_NPEBD@Z</DECORATED>
+    <FUNCLINE>173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>317</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::read</FUNCTION>
+    <DECORATED>?read@image@@QEAA_NPEAD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>318</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::read</FUNCTION>
+    <DECORATED>?read@image@@QEAA_NPEAD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>334</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::read</FUNCTION>
+    <DECORATED>?read@image@@QEAA_NPEAD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>334</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::read</FUNCTION>
+    <DECORATED>?read@image@@QEAA_NPEAD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>335</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::read</FUNCTION>
+    <DECORATED>?read@image@@QEAA_NPEAD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\image\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>335</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>image::read</FUNCTION>
+    <DECORATED>?read@image@@QEAA_NPEAD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\utility\</FILEPATH>
+      <FILENAME>utility.cpp</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>utility::stretching</FUNCTION>
+    <DECORATED>?stretching@utility@@SAXAEAVimage@@0AEAV?$vector@Uroi@@V?$allocator@Uroi@@@std@@@std@@HH@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\utility\</FILEPATH>
+      <FILENAME>utility.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>utility::stretching</FUNCTION>
+    <DECORATED>?stretching@utility@@SAXAEAVimage@@0AEAV?$vector@Uroi@@V?$allocator@Uroi@@@std@@@std@@HH@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\utility\</FILEPATH>
+      <FILENAME>utility.cpp</FILENAME>
+      <LINE>251</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>utility::colorsRGB</FUNCTION>
+    <DECORATED>?colorsRGB@utility@@SAXAEAVimage@@0AEAV?$vector@Uroi@@V?$allocator@Uroi@@@std@@@std@@HHAEBH@Z</DECORATED>
+    <FUNCLINE>226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\utility\</FILEPATH>
+      <FILENAME>utility.cpp</FILENAME>
+      <LINE>252</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>utility::colorsRGB</FUNCTION>
+    <DECORATED>?colorsRGB@utility@@SAXAEAVimage@@0AEAV?$vector@Uroi@@V?$allocator@Uroi@@@std@@@std@@HHAEBH@Z</DECORATED>
+    <FUNCLINE>226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\utility\</FILEPATH>
+      <FILENAME>utility.cpp</FILENAME>
+      <LINE>414</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>utility::stretchingRegions</FUNCTION>
+    <DECORATED>?stretchingRegions@utility@@SAXAEAVimage@@0HHHH@Z</DECORATED>
+    <FUNCLINE>406</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gd_is\Documents\Image Processing\HW2\DIPCODE_VC\iptool\iptool\iptools\utility\</FILEPATH>
+      <FILENAME>utility.cpp</FILENAME>
+      <LINE>415</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>utility::stretchingRegions</FUNCTION>
+    <DECORATED>?stretchingRegions@utility@@SAXAEAVimage@@0HHHH@Z</DECORATED>
+    <FUNCLINE>406</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

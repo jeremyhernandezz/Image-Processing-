@@ -1,0 +1,6 @@
+﻿  utility.cpp
+C:\Users\gd_is\Documents\Image Processing\HW3\DIPCODE_VC\iptool\iptool\iptools\utility\utility.cpp(298,24): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+C:\Users\gd_is\Documents\Image Processing\HW3\DIPCODE_VC\iptool\iptool\iptools\utility\utility.cpp(291,17): warning C4101: 'B': unreferenced local variable
+C:\Users\gd_is\Documents\Image Processing\HW3\DIPCODE_VC\iptool\iptool\iptools\utility\utility.cpp(291,11): warning C4101: 'R': unreferenced local variable
+C:\Users\gd_is\Documents\Image Processing\HW3\DIPCODE_VC\iptool\iptool\iptools\utility\utility.cpp(291,14): warning C4101: 'G': unreferenced local variable
+  iptool.vcxproj -> C:\Users\gd_is\Documents\Image Processing\HW3\DIPCODE_VC\iptool\x64\Debug\iptool.exe

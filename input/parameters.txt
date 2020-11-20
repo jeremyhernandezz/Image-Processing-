@@ -1,0 +1,10 @@
+1
+40 80 150 150
+5
+../input/wheel.pgm ../output/wheel_gradient.pgm gradient
+../input/wheel.pgm ../output/wheel_threshold.pgm threshold 100
+../input/wheel.pgm ../output/wheel_direction.pgm direction 100 135
+../input/pink.ppm ../output/pink_edgeORED.ppm colorEdge 100 ../output/pink_edgeRED.ppm ../output/pink_edgeGreen.ppm ../output/pink_edgeBlue.ppm
+../input/Sunflower.ppm ../output/Sunflower_binarizeconv.pgm intensityEdge 100 ../output/Sunflower_gradientHSI.pgm
+	
+
