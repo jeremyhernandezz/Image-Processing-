@@ -1,4 +1,4 @@
-Jeremy Hernandez U4037-0193
+Jeremy Hernandez
 
 *** This project is built under Visual Studio 2015
 
